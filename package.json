@@ -1,0 +1,22 @@
+{
+  "name": "rce-blank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rich-content-viewer.js",
+  "scripts": {
+    "start": "parcel serve rich-content-viewer.html -p 3000 --no-cache",
+    "test": ":"
+  },
+  "author": "Illia Omelchenko",
+  "license": "ISC",
+  "dependencies": {
+    "@wix/rich-content": "^1.0.42",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "wix-rich-content-viewer": "^7.4.6",
+    "wix-rich-content-wrapper": "^7.4.6"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
